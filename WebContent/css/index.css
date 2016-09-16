@@ -1,0 +1,49 @@
+@CHARSET "UTF-8";
+
+#caption {
+	position: absolute;
+	top: 0;
+	border-radius: 25px;
+	background-color: #82E0AA;
+	padding: 2%;
+	left: .5%;
+	width: 60%;
+	height: 150px;
+}
+
+#caption2 {
+	position: absolute;
+	top: 0;
+	border-radius: 25px;
+	background-color: #7f007f;
+	color: white;
+	padding: 2%;
+	width: 30%;
+	right: .5%;
+	height: 150px;
+}
+
+#companydescription {
+	font-family: "Georgia", Times, serif;
+	font-size: 18px;
+	font-style: normal;
+}
+
+#banner {
+	height: 50%;
+	width: 100%;
+}
+
+.center {
+	display: block;
+	margin: auto;
+	width: 94%;
+}
+
+.overlap {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: right;
+}

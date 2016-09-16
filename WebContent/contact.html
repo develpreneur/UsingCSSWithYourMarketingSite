@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="./css/style.css">
+<link rel="stylesheet" type="text/css" href="./css/contact.css">
+</head>
+<body>
+	<div id="companyinfo">
+		<img id="companylogo" src="./img/default-merchant-logo.png" alt="logo">
+		<h1 id="companyName">Insert Company Name</h1>
+	</div>
+	<ul id="menu">
+		<li><a href="./index.html">Home</a></li>
+		<li><a href="./blog/index.html">Blog</a></li>
+		<li><a href="./about.html">About</a></li>
+		<li style="float: right"><a class="active" href="./contact.html">Contact
+				Us</a></li>
+	</ul>
+	<h1>Email Contact Form</h1>
+	<h3>Please enter your contact information:</h3>
+	<form method="post" action="./php/echo.php">
+
+		<div id="section1">
+			First name: <input type="text" name="firstname"><br /> Last
+			name:<input type="text" name="lastname"><br /> E-Mail:<input
+				type="text" name="email"><br /> Country:<select
+				name="country">
+				<option value="US">United States</option>
+				<option value="UK">United Kingdom</option>
+				<option value="CA">Canada</option>
+				<option value="OT">Other</option>
+			</select>
+
+		</div>
+		<div id="section2">
+			What is your gender?<br /> <input type="radio" name="gender"
+				value="male" checked> Male<br> <input type="radio"
+				name="gender" value="female"> Female<br> <input
+				type="radio" name="gender" value="other"> Other 
+				<br><br>
+			Comments:<br />
+			<textarea name="message">Enter a Comment here.</textarea>
+		</div>
+		<div id="buttonbar">
+			<input name="Submit" value="Submit" type="submit" /> <input
+				type="reset" value="Clear Form">
+		</div>
+	</form>
+</body>
+<div id="footer">
+	<div id="sitemap">
+		<a href="./index.html">Home</a> <a href="./blog/index.html">Blog</a> <a
+			href="./about.html">About</a> <a href="./contact.html">Contact Us</a>
+	</div>
+	<div id="copyright">&copy; 2016 Insert Company Name</div>
+</div>
+</html>
